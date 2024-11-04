@@ -1,0 +1,7 @@
+/* Home Page-Start */
+.hero-background
+{
+    background-image: url(../assets/bgtexture.jpg);
+    height: 600px;
+    width: 1920px;
+}
