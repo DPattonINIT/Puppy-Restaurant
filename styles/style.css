@@ -1,0 +1,19 @@
+body {
+    background-image: url('../assets/bgtexture.jpg');
+}
+
+
+/* Navbar --- --- --- */
+
+.navbar-container {
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.muzzles-logo {
+    width: 65%;
+}
+
+.navbar a {
+    font-size: 1rem;
+}
