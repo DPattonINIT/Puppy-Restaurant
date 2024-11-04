@@ -2,6 +2,14 @@
 .hero-background
 {
     background-image: url(../assets/bgtexture.jpg);
-    height: 600px;
+    height: 800px;
     width: 1920px;
+}
+.hero-image 
+{
+    background-image: url(../assets/homeHero.jpg);
+    height: 550px;
+    width: 1920px;
+    display: flex;
+    justify-content: center;
 }
