@@ -78,7 +78,7 @@ body {
 }
 
 .platter-img {
-  height: 449.5px;
+  height: 100%;
   width: 100%;
   object-fit: cover;
 }
@@ -93,9 +93,10 @@ body {
 .content-text {
   font-size: 20px;
   color: #5f002b;
+  margin-bottom: 50px;
 }
 .tri-img {
-  height: 184px;
+  height: 100%;
   width: 100%;
 }
 .muzzle-container {
