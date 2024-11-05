@@ -184,7 +184,7 @@ body{
 }
 .header{
     background-color: white;
-    grid-row: 1;
+    grid-row: 2;
     grid-column: 1/ 5;
 
 }
@@ -192,11 +192,21 @@ body{
     font-size: 50px;
     color: #5F002B;
     font-weight: bold;
-    font-family: Fugaz One;
+    font-family: 'Fugaz One';
     text-align: center;
     grid-row: 1;
     grid-column: 1/5;
 }
+
+.headernav{
+    grid-row: 1;
+    grid-column: 1/5;
+}
+.footer-container{
+    grid-row: 6;
+    grid-column: 1/5;
+}
+
 .img-1,.img-2,.img-3,.img-4,.img-5,.img-6,.img-7,.img-8,.img-9,.img-10,.img-11,.img-12{
     border: 10px solid white;
     width: 100%;
