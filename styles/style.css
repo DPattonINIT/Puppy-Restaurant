@@ -59,13 +59,15 @@ body {
     position: absolute;
     bottom: 0;
 
-    font-family: 'Montuak-Light', sans-serif;
+    font-family: 'Montuak-Light';
     font-weight: 200;
-    font-size: .90rem;
+    font-size: 20px;
     color: #5F002B;
+    letter-spacing: 1px;
 }
 
 .company-logo {
-    width: 13%;
+    min-width: 100px;
+    max-height: 31.6px;
 }
 
