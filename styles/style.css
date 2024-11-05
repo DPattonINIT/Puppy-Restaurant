@@ -39,7 +39,7 @@
 }
 
 .muzzles-logo {
-    width: 65%;
+    width: 70%;
 }
 
 .navbar a {
@@ -47,28 +47,27 @@
     font-size: 1rem;
     color: #5F002B;
     margin-left: 1.5em;
-}.Bgimage {
-    background-image: url(../assets/bgtexture.jpg);
 }
 
-.fugaz-one-regular {
-    font-family: "Fugaz One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+
+/* Footer --- --- --- */
+
+.footer-container {
+    padding-left: 6rem;
+    padding-right: 6rem;
+
+    position: absolute;
+    bottom: 0;
+
+    font-family: 'Montuak-Light';
+    font-weight: 200;
+    font-size: 20px;
+    color: #5F002B;
+    letter-spacing: 1px;
 }
 
-@media screen and (min-width: 1615px) {
-    .CenterWidth {
-        display: flex;
-        justify-content: center;
-        width: 1614px;
-    }
+.company-logo {
+    min-width: 100px;
+    max-height: 31.6px;
 }
 
-@media screen and (max-width: 1614px) {
-    .CenterWidth {
-        display: flex;
-        justify-content: center;
-        width: 1014px;
-    }
-}
