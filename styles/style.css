@@ -39,7 +39,7 @@ body {
 }
 
 .muzzles-logo {
-    width: 70%;
+    min-width: 250px;
 }
 
 .navbar a {
