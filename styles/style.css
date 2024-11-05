@@ -56,7 +56,7 @@ body {
     padding-left: 6rem;
     padding-right: 6rem;
 
-    position: absolute;
+    position: relative;
     bottom: 0;
 
     font-family: 'Montuak-Light';
@@ -103,3 +103,37 @@ body {
     padding-left: 6rem;
     padding-right: 6rem;
 }
+
+/* Home Page-Start */
+.hero-container {
+    background-image: url(../assets/bgtexture.jpg);
+  }
+  
+  .platter-img {
+    height: 449.5px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .text-container {
+    height: 265px;
+  }
+  .title-text {
+    color: #5f002b;
+    font-size: 50px;
+  }
+  .content-text {
+    font-size: 20px;
+    color: #5f002b;
+   
+  }
+  .tri-img {
+    height: 184px;
+    width: 100%;
+    
+  }
+  .muzzle-container {
+    background-color: white;
+  }
+  /* Home Page-End */
+  
