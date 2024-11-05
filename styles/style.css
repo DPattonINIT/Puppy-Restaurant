@@ -71,3 +71,37 @@ body {
     max-height: 31.6px;
 }
 
+
+
+/* Home Page-Start */
+.hero-container {
+    background-image: url(../assets/bgtexture.jpg);
+  }
+  
+  .platter-img {
+    height: 449.5px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .text-container {
+    height: 265px;
+  }
+  .title-text {
+    color: #5f002b;
+    font-size: 50px;
+  }
+  .content-text {
+    font-size: 20px;
+    color: #5f002b;
+  }
+  .tri-img {
+    height: 185px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .muzzle-container {
+    background-color: white;
+  }
+  /* Home Page-End */
+  
