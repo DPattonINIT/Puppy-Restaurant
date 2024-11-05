@@ -71,3 +71,35 @@ body {
     max-height: 31.6px;
 }
 
+/* About Styles - Josue */
+.aboutTextBg {
+    background-color: white;
+}
+
+.aboutHeaderFont {
+    font-family: 'Fugaz One';
+    font-size: 50px;
+    color: #5F002B;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.aboutSubheaderFont {
+    font-family: 'Fugaz One';
+    font-size: 30px;
+    color: #5F002B;
+}
+
+.aboutTextFont {
+    font-family: 'Montuak-Light';
+    font-size: 20px;
+    color: #5F002B;
+    padding-left: 40px;
+    padding-right: 64px;
+    padding-bottom: 124px;
+}
+
+#AboutBody {
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
