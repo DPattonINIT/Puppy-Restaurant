@@ -38,7 +38,7 @@ body {
 }
 
 .muzzles-logo {
-  width: 70%;
+    min-width: 250px;
 }
 
 .navbar a {
@@ -132,9 +132,76 @@ body {
   min-width: 100px;
   max-height: 31.6px;
 }
-/* Footer-End------------------- */
 
+/* About Styles - Josue */
+.aboutTextBg {
+    background-color: white;
+}
 
+.aboutHeaderFont {
+    font-family: 'Fugaz One';
+    font-size: 50px;
+    color: #5F002B;
+    padding-top: 30px;
+    padding-left: 40px;
+    margin-bottom: 0px;
+}
+
+.aboutSubheaderFont {
+    font-family: 'Fugaz One';
+    font-size: 30px;
+    color: #5F002B;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.aboutTextFont {
+    font-family: 'Montuak-Light';
+    font-size: 20px;
+    color: #5F002B;
+    line-height: 22px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 6px;
+}
+
+.noRounded {
+    border-radius: 0;
+    border: 0;
+}
+
+/* @media screen and (min-width: 1200px) {
+    .card.noRounded img {
+        width: 536px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .card.noRounded img {
+        width: 357px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .card.noRounded img {
+        width: 536px;
+    }
+} */
+
+#AboutBody {
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+#OurTeamBarHeight {
+    height: 80px;
+}
+
+#AboutCustomPadding {
+    padding-left: 40px;
+    padding-right: 64px;
+    padding-bottom: 124px;
+}
 
 /* Home Page-Start------------- */
 .hero-container {
