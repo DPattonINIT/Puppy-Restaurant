@@ -1,0 +1,25 @@
+.Bgimage {
+    background-image: url(../assets/bgtexture.jpg);
+}
+
+.fugaz-one-regular {
+    font-family: "Fugaz One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media screen and (min-width: 1615px) {
+    .CenterWidth {
+        display: flex;
+        justify-content: center;
+        width: 1614px;
+    }
+}
+
+@media screen and (max-width: 1614px) {
+    .CenterWidth {
+        display: flex;
+        justify-content: center;
+        width: 1014px;
+    }
+}
