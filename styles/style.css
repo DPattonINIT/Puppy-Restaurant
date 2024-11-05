@@ -39,7 +39,7 @@
 }
 
 .muzzles-logo {
-    width: 65%;
+    width: 70%;
 }
 
 .navbar a {
@@ -48,3 +48,24 @@
     color: #5F002B;
     margin-left: 1.5em;
 }
+
+
+/* Footer --- --- --- */
+
+.footer-container {
+    padding-left: 6rem;
+    padding-right: 6rem;
+
+    position: absolute;
+    bottom: 0;
+
+    font-family: 'Montuak-Light', sans-serif;
+    font-weight: 200;
+    font-size: .90rem;
+    color: #5F002B;
+}
+
+.company-logo {
+    width: 13%;
+}
+
