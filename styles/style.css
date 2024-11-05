@@ -1,20 +1,30 @@
 /* Home Page-Start */
-.hero-background
-{
-    background-image: url(../assets/bgtexture.jpg);
-    height: 800px;
-    width: 1920px;
+.hero-container {
+  background-image: url(../assets/bgtexture.jpg);
 }
-.hero-image 
-{
-    background-image: url(../assets/homeHero.jpg);
-    height: 550px;
-    width: 1920px;
-    display: flex;
-    justify-content: center;
+
+.platter-img {
+  height: 449.5px;
+  width: 100%;
+  object-fit: cover;
 }
-.platter-img
-{
-height: 449.5px;
-width: 674px;
+
+.text-container {
+  height: 265px;
+}
+.title-text {
+  color: #5f002b;
+  font-size: 50px;
+}
+.content-text {
+  font-size: 20px;
+  color: #5f002b;
+}
+.tri-img {
+  height: 185px;
+  width: 100%;
+  object-fit: cover;
+}
+.muzzle-container {
+  background-color: white;
 }
