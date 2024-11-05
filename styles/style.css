@@ -1,4 +1,53 @@
-.Bgimage {
+/* Fonts --- --- --- */
+
+/* --- Font Family: 'Fugaz One' */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Fugaz+One&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+/* --- Font Family: 'Montuak' */
+@font-face {
+    font-family: 'Montuak-Regular';
+    src: url(../fonts/Montauk-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Montuak-Bold';
+    src: url(../fonts/Montauk-Bold.otf);
+}
+
+@font-face {
+    font-family: 'Montuak-Light';
+    src: url(../fonts/Montauk-Light.otf);
+}
+
+@font-face {
+    font-family: 'Montuak-Italic';
+    src: url(../fonts/Montauk-Italic.otf);
+}
+
+/* Body --- --- --- */
+
+#home-body {
+    background-image: url('../assets/bgtexture.jpg');
+}
+
+
+/* Navbar --- --- --- */
+
+.navbar-container {
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.muzzles-logo {
+    width: 65%;
+}
+
+.navbar a {
+    font-family: 'Fugaz One', sans-serif;
+    font-size: 1rem;
+    color: #5F002B;
+    margin-left: 1.5em;
+}.Bgimage {
     background-image: url(../assets/bgtexture.jpg);
 }
 
