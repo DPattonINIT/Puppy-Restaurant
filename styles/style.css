@@ -51,6 +51,18 @@ body {
 
 /* Catering --- --- --- */
 
+@media screen and (max-width: 576px) {
+
+    .main-bg {
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    .catering-images {
+        margin-bottom: 1rem;
+    }
+}
+
 /* Title --- --- */
 
 .catering-title {
