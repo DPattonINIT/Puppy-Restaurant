@@ -217,6 +217,71 @@ body {
     }
 }
 
+/* Menu Styles - Josue */
+
+@media screen and (min-width: 768px) {
+    #MenuBody {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+}
+@media screen and (max-width: 767px) {
+    #MenuBody {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+.menuTextBg {
+    background-color: white;
+}
+
+.menuHeaderFont {
+    font-family: 'Fugaz One';
+    font-size: 50px;
+    color: #5F002B;
+}
+
+.menuSubheaderFont1 {
+    font-family: 'Fugaz One';
+    font-size: 30px;
+    color: #5F002B;
+}
+
+.menuSubheaderFont2 {
+    font-family: 'Montuak-Light';
+    font-size: 30px;
+    color: #5F002B;
+}
+
+.menuTextFont {
+    font-family: 'Montuak-Light';
+    font-size: 20px;
+    color: #5F002B;
+    line-height: 22px;
+}
+
+.menuPriceFont {
+    font-family: 'Montuak-Light';
+    font-size: 35px;
+    color: #5F002B;
+    text-wrap: nowrap;
+}
+
+.bottomBorder {
+    border-bottom: 1px solid #5F002B;
+}
+
+.cardInnerSpacing {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.container.cardInnerSpacing .col, .container.cardInnerSpacing .col-2 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 
 /* Home Page-Start------------- */
 .hero-container {
