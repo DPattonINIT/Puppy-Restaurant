@@ -32,9 +32,18 @@ body {
 
 /* Navbar --- --- --- */
 
-.navbar-container {
-  padding-left: 6rem;
-  padding-right: 6rem;
+@media screen and (min-width: 768px) {
+    .navbar-container {
+      padding-left: 6rem;
+      padding-right: 6rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-container {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
 }
 
 .muzzles-logo {
@@ -50,10 +59,21 @@ body {
 
 /* Footer --- --- --- */
 
-.footer-container {
-  padding-left: 6rem;
-  padding-right: 6rem;
+@media screen and (min-width: 768px) {
+    .footer-container {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+}
 
+@media screen and (max-width: 767px) {
+    .footer-container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+.footer-container {
   position: relative;
   bottom: 0;
 
@@ -70,6 +90,19 @@ body {
 }
 
 /* About Styles - Josue */
+@media screen and (min-width: 768px) {
+    #AboutBody {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+}
+@media screen and (max-width: 767px) {
+    #AboutBody {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
 .aboutTextBg {
     background-color: white;
 }
@@ -80,6 +113,7 @@ body {
     color: #5F002B;
     padding-top: 30px;
     padding-left: 40px;
+    padding-right: 40px;
     margin-bottom: 0px;
 }
 
@@ -106,38 +140,19 @@ body {
     border: 0;
 }
 
-/* @media screen and (min-width: 1200px) {
-    .card.noRounded img {
-        width: 536px;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .card.noRounded img {
-        width: 357px;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .card.noRounded img {
-        width: 536px;
-    }
-} */
-
-#AboutBody {
-    padding-left: 6rem;
-    padding-right: 6rem;
-}
 
 #OurTeamBarHeight {
     height: 80px;
 }
 
-#AboutCustomPadding {
-    padding-left: 40px;
-    padding-right: 64px;
-    padding-bottom: 124px;
+@media screen and (min-width: 1400px) {
+    #AboutCustomPadding {
+        padding-left: 40px;
+        padding-right: 64px;
+        padding-bottom: 124px;
+    }
 }
+
 
 /* Home Page-Start------------- */
 .hero-container {
