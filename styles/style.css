@@ -233,6 +233,29 @@ body {
 .muzzle-container {
   background-color: white;
 }
+
+@media screen and (max-width: 768px){
+    .platter-img{
+        height: 70%;
+        border: solid white 10px;
+       width: 100%;
+    }
+    .platter-container{
+        display: flex;
+        align-items: center;
+        margin-top: -4rem;
+       }
+    
+    .hero-container{
+        border-top: solid white 10px;
+        border-bottom: solid white 10px;
+    }
+    .muzzle-pack{
+        margin-bottom: 2rem;
+    }
+}
+    
+
 /* Home Page-End ----------------*/
 
 
