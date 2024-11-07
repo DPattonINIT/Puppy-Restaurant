@@ -246,12 +246,16 @@ body {
     font-family: 'Fugaz One';
     font-size: 30px;
     color: #5F002B;
+    padding-top: 23px;
+    margin-bottom: 0;
 }
 
 .menuSubheaderFont2 {
     font-family: 'Montuak-Light';
-    font-size: 30px;
+    font-size: 35px;
     color: #5F002B;
+    margin-bottom: 0;
+    padding-top: 30px;
 }
 
 .menuTextFont {
@@ -266,6 +270,8 @@ body {
     font-size: 35px;
     color: #5F002B;
     text-wrap: nowrap;
+    padding-top: 40px;
+    text-align: center;
 }
 
 .bottomBorder {
