@@ -33,21 +33,22 @@ body {
 /* Navbar --- --- --- */
 
 @media screen and (min-width: 768px) {
-    .navbar-container {
-      padding-left: 6rem;
-      padding-right: 6rem;
-    }
+  .navbar-container {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .navbar-container {
-      padding-left: 2rem;
-      padding-right: 2rem;
-    }
+  .navbar-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
 .muzzles-logo {
-    min-width: 250px;
+  width: 70%;
+  min-width: 250px;
 }
 
 .navbar a {
@@ -57,95 +58,95 @@ body {
   margin-left: 1.5em;
 }
 
-
 /* Catering --- --- --- */
+
+@media screen and (max-width: 576px) {
+  .main-bg {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .catering-images {
+    margin-bottom: 1rem;
+  }
+}
 
 /* Title --- --- */
 
 .catering-title {
-    font-family: 'Fugaz One', sans-serif;
-    font-size: 2.125rem;
+  font-family: "Fugaz One", sans-serif;
+  font-size: 2.125rem;
 
-    background-color: white;
-    color: #5F002B;
+  background-color: white;
+  color: #5f002b;
 
-    text-align: center;
+  text-align: center;
 }
 
 /* Hero --- --- */
 
 .hero-image {
-    max-width: 100%;
+  width: 100%;
 }
 
 /* Main --- --- */
 
 .main-title {
-    font-family: 'Fugaz One', sans-serif;
-    font-size: 1.5rem;
+  font-family: "Fugaz One", sans-serif;
+  font-size: 1.5rem;
 
-    color: #5F002B;
-    
+  color: #5f002b;
 }
 
 .main-bg {
-    background-color: white;
+  background-color: white;
 }
 
 .main-text {
-    font-family: 'Montuak-Regular', sans-serif;
-    font-size: .90rem;
-    font-weight: 100;
-    color: #5F002B;
+  font-family: "Montuak-Regular", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 100;
+  color: #5f002b;
 }
 
 .main-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* Images --- --- */
 
 .catering-images {
-    width: 100%;
-    height: 100%;
+  width: 100%;
 }
 
 /* Catering End --- --- --- */
 
-
-
-
-
-
-
-
-
 /* Footer --- --- --- */
 
 @media screen and (min-width: 768px) {
-    .footer-container {
-        padding-left: 6rem;
-        padding-right: 6rem;
-    }
+  .footer-container {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .footer-container {
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
+  .footer-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
 .footer-container {
   position: relative;
   bottom: 0;
 
-    font-family: 'Montuak-Light';
-    font-weight: 300;
-    font-size: 20px;
-    color: #5F002B;
+  font-family: "Montuak-Light";
+  font-weight: 300;
+  font-size: 20px;
+  color: #5f002b;
 }
 
 .company-logo {
@@ -155,66 +156,65 @@ body {
 
 /* About Styles - Josue */
 @media screen and (min-width: 768px) {
-    #AboutBody {
-        padding-left: 6rem;
-        padding-right: 6rem;
-    }
+  #AboutBody {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
 }
 @media screen and (max-width: 767px) {
-    #AboutBody {
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
+  #AboutBody {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
 .aboutTextBg {
-    background-color: white;
+  background-color: white;
 }
 
 .aboutHeaderFont {
-    font-family: 'Fugaz One';
-    font-size: 50px;
-    color: #5F002B;
-    padding-top: 30px;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-bottom: 0px;
+  font-family: "Fugaz One";
+  font-size: 50px;
+  color: #5f002b;
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 0px;
 }
 
 .aboutSubheaderFont {
-    font-family: 'Fugaz One';
-    font-size: 30px;
-    color: #5F002B;
-    padding-left: 30px;
-    padding-right: 30px;
+  font-family: "Fugaz One";
+  font-size: 30px;
+  color: #5f002b;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .aboutTextFont {
-    font-family: 'Montuak-Light';
-    font-size: 20px;
-    color: #5F002B;
-    line-height: 22px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 6px;
+  font-family: "Montuak-Light";
+  font-size: 20px;
+  color: #5f002b;
+  line-height: 22px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 6px;
 }
 
 .noRounded {
-    border-radius: 0;
-    border: 0;
+  border-radius: 0;
+  border: 0;
 }
 
-
 #OurTeamBarHeight {
-    height: 80px;
+  height: 80px;
 }
 
 @media screen and (min-width: 1400px) {
-    #AboutCustomPadding {
-        padding-left: 40px;
-        padding-right: 64px;
-        padding-bottom: 124px;
-    }
+  #AboutCustomPadding {
+    padding-left: 40px;
+    padding-right: 64px;
+    padding-bottom: 124px;
+  }
 }
 
 /* Menu Styles - Josue */
@@ -289,7 +289,7 @@ body {
 }
 
 
-/* Home Page-Start------------- */
+/* Home Page-Start--Darryl------------- */
 .hero-container {
   background-image: url(../assets/bgtexture.jpg);
 }
@@ -319,50 +319,134 @@ body {
 .muzzle-container {
   background-color: white;
 }
+
+@media screen and (max-width: 768px) {
+  .platter-img {
+    height: 70%;
+    border: solid white 10px;
+    width: 100%;
+  }
+  .platter-container {
+    display: flex;
+    align-items: center;
+    margin-top: -4rem;
+  }
+
+  .hero-container {
+    border-top: solid white 10px;
+    border-bottom: solid white 10px;
+  }
+  .muzzle-pack {
+    margin-bottom: 2rem;
+  }
+}
+
 /* Home Page-End ----------------*/
 
-
-
-/* Photo-Page-Start--------- */
-body{
-    background-image: url(../assets/bgtexture.jpg);
+/* Photo-Page-Start-Darryl-------- */
+body {
+  background-image: url(../assets/bgtexture.jpg);
 }
-.grid-container{
-    width: 90%;
-    display: grid;
-    grid-template-columns:  1fr 1fr 1fr 1fr;
-    grid-row: 1fr 1fr 1fr 1fr;
-    gap: 20px;
-
+.grid-container {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-row: 1fr 1fr 1fr 1fr;
+  gap: 20px;
 }
-.header{
-    background-color: white;
-    grid-row: 2;
-    grid-column: 1/ 5;
-
+.header {
+  background-color: white;
+  grid-row: 2;
+  grid-column: 1/ 5;
 }
-.photo-text{
+.photo-text {
+  font-size: 50px;
+  color: #5f002b;
+  font-weight: bold;
+  font-family: "Fugaz One";
+  text-align: center;
+  grid-row: 1;
+  grid-column: 1/5;
+}
+
+.headernav {
+  grid-row: 1;
+  grid-column: 1/5;
+}
+.footer-container {
+  grid-row: 6;
+  grid-column: 1/5;
+}
+
+.img-1,
+.img-2,
+.img-3,
+.img-4,
+.img-5,
+.img-6,
+.img-7,
+.img-8,
+.img-9,
+.img-10,
+.img-11,
+.img-12 {
+  border: 10px solid white;
+  width: 100%;
+  height: auto;
+}
+
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .photo-text {
     font-size: 50px;
-    color: #5F002B;
+    color: #5f002b;
     font-weight: bold;
-    font-family: 'Fugaz One';
+    font-family: "Fugaz One";
     text-align: center;
     grid-row: 1;
-    grid-column: 1/5;
-}
-
-.headernav{
+    grid-column: 1/4;
+  }
+  .header {
+    background-color: white;
+    grid-row: 2;
+    grid-column: 1/ 4;
+  }
+  .headernav {
     grid-row: 1;
-    grid-column: 1/5;
+    grid-column: 1/4;
+  }
+  .footer-container {
+    grid-row: 10;
+    grid-column: 1/4;
+  }
 }
-.footer-container{
-    grid-row: 6;
-    grid-column: 1/5;
-}
-
-.img-1,.img-2,.img-3,.img-4,.img-5,.img-6,.img-7,.img-8,.img-9,.img-10,.img-11,.img-12{
-    border: 10px solid white;
-    width: 100%;
-    height: auto;
-
-}
+@media (max-width: 450px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .photo-text {
+      font-size: 50px;
+      color: #5f002b;
+      font-weight: bold;
+      font-family: "Fugaz One";
+      text-align: center;
+      grid-row: 1;
+      grid-column: 1/2;
+    }
+    .header {
+      background-color: white;
+      grid-row: 2;
+      grid-column: 1/ 3;
+    }
+    .headernav {
+      grid-row: 1;
+      grid-column: 1/3;
+    }
+    .footer-container {
+      grid-row: 10;
+      grid-column: 1/3;
+    }
+  }
