@@ -305,7 +305,7 @@ body {
 }
 .title-text {
   color: #5f002b;
-  font-size: 50px;
+  font-size: 40px;
   font-family: 'fugaz one', sans-serif;
   padding-left: 40px;
   padding-right: 40px;
@@ -375,6 +375,7 @@ body {
 #nav-pad{
     padding-right: 0px;
     padding-left: 0px;
+
 }
 
 .headernav {
