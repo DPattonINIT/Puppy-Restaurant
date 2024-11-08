@@ -307,12 +307,18 @@ body {
   color: #5f002b;
   font-size: 50px;
   font-family: 'fugaz one', sans-serif;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 24px;
 }
 .content-text {
   font-size: 20px;
   color: #5f002b;
   margin-bottom: 50px;
   font-family: "Montuak-Regular", sans-serif;
+  padding-left: 40px;
+  padding-right: 40px;
+  line-height: 22px;
 }
 .tri-img {
   height: 100%;
