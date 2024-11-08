@@ -365,10 +365,15 @@ body {
   font-size: 50px;
   color: #5f002b;
   font-weight: bold;
-  font-family: "Fugaz One";
+  font-family: 'fugaz one', sans-serif;
   text-align: center;
   grid-row: 1;
   grid-column: 1/5;
+}
+
+#nav-pad{
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 .headernav {
