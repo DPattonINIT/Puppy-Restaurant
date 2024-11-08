@@ -5,6 +5,6 @@
 
 **Peer**: Gianpaolo Reinares
 **Review**:
-> Site looks great and matches the mockup; responiveness functions; text on homepage is missing the proper font; in 'About', AboutMain.jpg (alt - "About Main") does not scale with the text box; 'Menu', 'Catering' and 'Photo' all look great (I love the addition of the 'zoom' feature); besides a little bit of minor tweaks, great job.
+> Site looks great and matches the mockup; responiveness functions; in 'About', AboutMain.jpg (alt - "About Main") does not scale with the text box; 'Menu', 'Catering' and 'Photo' all look great (I love the addition of the 'zoom' feature); besides a little bit of minor tweaks, great job.
 
 GitHub Repo: https://github.com/DPattonINIT/Puppy-Restaurant

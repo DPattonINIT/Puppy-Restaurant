@@ -306,11 +306,13 @@ body {
 .title-text {
   color: #5f002b;
   font-size: 50px;
+  font-family: 'fugaz one', sans-serif;
 }
 .content-text {
   font-size: 20px;
   color: #5f002b;
   margin-bottom: 50px;
+  font-family: "Montuak-Regular", sans-serif;
 }
 .tri-img {
   height: 100%;
