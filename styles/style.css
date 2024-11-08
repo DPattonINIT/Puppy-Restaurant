@@ -307,12 +307,18 @@ body {
   color: #5f002b;
   font-size: 50px;
   font-family: 'fugaz one', sans-serif;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 24px;
 }
 .content-text {
   font-size: 20px;
   color: #5f002b;
   margin-bottom: 50px;
   font-family: "Montuak-Regular", sans-serif;
+  padding-left: 40px;
+  padding-right: 40px;
+  line-height: 22px;
 }
 .tri-img {
   height: 100%;
@@ -325,7 +331,6 @@ body {
 @media screen and (max-width: 768px) {
   .platter-img {
     height: 70%;
-    border: solid white 10px;
     width: 100%;
   }
   .platter-container {
@@ -334,10 +339,6 @@ body {
     margin-top: -4rem;
   }
 
-  .hero-container {
-    border-top: solid white 10px;
-    border-bottom: solid white 10px;
-  }
   .muzzle-pack {
     margin-bottom: 2rem;
   }
